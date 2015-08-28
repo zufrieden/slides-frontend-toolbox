@@ -1,0 +1,347 @@
+@import url(../../lib/font/league-gothic/league-gothic.css);
+
+@font-face {
+  font-family: "toolicons";
+  src: url("fonts/toolicons.eot");
+  src: url("fonts/toolicons.eot?#iefix") format("eot"), url("fonts/toolicons.woff") format("woff"), url("fonts/toolicons.ttf") format("truetype"), url("fonts/toolicons.svg#toolicons") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.toolicons:before {
+  display: inline-block;
+  font-family: "toolicons";
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.toolicons-lg {
+  font-size: 1.3333333333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%; }
+
+.toolicons-2x {
+  font-size: 2em; }
+
+.toolicons-3x {
+  font-size: 3em; }
+
+.toolicons-4x {
+  font-size: 4em; }
+
+.toolicons-5x {
+  font-size: 5em; }
+
+.toolicons-fw {
+  width: 1.2857142857142858em;
+  text-align: center; }
+
+.toolicons-atomic:before {
+  content: "\E001"; }
+
+.toolicons-responsive:before {
+  content: "\E002"; }
+
+.toolicons-sass:before {
+  content: "\E003"; }
+
+.toolicons-styleguide:before {
+  content: "\E004"; }
+
+.toolicons-sub:before {
+  content: "\E005"; }
+
+.toolicons-task:before {
+  content: "\E006"; }
+
+.toolicons-template:before {
+  content: "\E007"; }
+
+.toolicons-test:before {
+  content: "\E008"; }
+
+.toolicons-github:before {
+  content: "\E009"; }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInRvb2xpY29ucy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UseUJBQXlCO0VBQ3pCLG1DQUFRO0VBQ1IsZ05BR2dEO0VBQ2hELG9CQUFvQjtFQUNwQixtQkFBbUIsRUFBQTs7QUFHWDtFQUNSLHNCQUFzQjtFQUN0Qix5QkFBeUI7RUFDekIsbUJBQW1CO0VBQ25CLG9CQUFvQjtFQUNwQixlQUFlO0VBQ2Ysb0NBQW9DO0VBQ3BDLG1DQUFtQyxFQVBsQjs7QUFVbkI7RUFDRSxnQ0FBZ0M7RUFDaEMsb0JBQW9CO0VBQ3BCLHFCQUFxQixFQUhSOztBQUtmO0VBQWdCLGVBQWUsRUFBaEI7O0FBQ2Y7RUFBZ0IsZUFBZSxFQUFoQjs7QUFDZjtFQUFnQixlQUFlLEVBQWhCOztBQUNmO0VBQWdCLGVBQWUsRUFBaEI7O0FBQ2Y7RUFDRSw0QkFBNEI7RUFDNUIsbUJBQW1CLEVBRk47O0FBS0U7RUFBVSxpQkFBa0IsRUFBbkI7O0FBQ0w7RUFBVSxpQkFBa0IsRUFBbkI7O0FBQ2Y7RUFBVSxpQkFBa0IsRUFBbkI7O0FBQ0g7RUFBVSxpQkFBa0IsRUFBbkI7O0FBQ2hCO0VBQVUsaUJBQWtCLEVBQW5COztBQUNSO0VBQVUsaUJBQWtCLEVBQW5COztBQUNMO0VBQVUsaUJBQWtCLEVBQW5COztBQUNiO0VBQVUsaUJBQWtCLEVBQW5COztBQUNQO0VBQVUsaUJBQWtCLEVBQW5CIiwiZmlsZSI6InRvb2xpY29ucy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJAZm9udC1mYWNlIHtcbiAgZm9udC1mYW1pbHk6IFwidG9vbGljb25zXCI7XG4gIHNyYzogdXJsKCcuLi9mb250cy90b29saWNvbnMuZW90Jyk7XG4gIHNyYzogdXJsKCcuLi9mb250cy90b29saWNvbnMuZW90PyNpZWZpeCcpIGZvcm1hdCgnZW90JyksXG4gICAgdXJsKCcuLi9mb250cy90b29saWNvbnMud29mZicpIGZvcm1hdCgnd29mZicpLFxuICAgIHVybCgnLi4vZm9udHMvdG9vbGljb25zLnR0ZicpIGZvcm1hdCgndHJ1ZXR5cGUnKSxcbiAgICB1cmwoJy4uL2ZvbnRzL3Rvb2xpY29ucy5zdmcjdG9vbGljb25zJykgZm9ybWF0KCdzdmcnKTtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgZm9udC1zdHlsZTogbm9ybWFsO1xufVxuXG4udG9vbGljb25zOmJlZm9yZSB7XG4gIGRpc3BsYXk6IGlubGluZS1ibG9jaztcbiAgZm9udC1mYW1pbHk6IFwidG9vbGljb25zXCI7XG4gIGZvbnQtc3R5bGU6IG5vcm1hbDtcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgbGluZS1oZWlnaHQ6IDE7XG4gIC13ZWJraXQtZm9udC1zbW9vdGhpbmc6IGFudGlhbGlhc2VkO1xuICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xufVxuXG4udG9vbGljb25zLWxnIHtcbiAgZm9udC1zaXplOiAxLjMzMzMzMzMzMzMzMzMzMzNlbTtcbiAgbGluZS1oZWlnaHQ6IDAuNzVlbTtcbiAgdmVydGljYWwtYWxpZ246IC0xNSU7XG59XG4udG9vbGljb25zLTJ4IHsgZm9udC1zaXplOiAyZW07IH1cbi50b29saWNvbnMtM3ggeyBmb250LXNpemU6IDNlbTsgfVxuLnRvb2xpY29ucy00eCB7IGZvbnQtc2l6ZTogNGVtOyB9XG4udG9vbGljb25zLTV4IHsgZm9udC1zaXplOiA1ZW07IH1cbi50b29saWNvbnMtZncge1xuICB3aWR0aDogMS4yODU3MTQyODU3MTQyODU4ZW07XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuLnRvb2xpY29ucy1hdG9taWM6YmVmb3JlIHsgY29udGVudDogXCJcXEUwMDFcIiB9XG4udG9vbGljb25zLXJlc3BvbnNpdmU6YmVmb3JlIHsgY29udGVudDogXCJcXEUwMDJcIiB9XG4udG9vbGljb25zLXNhc3M6YmVmb3JlIHsgY29udGVudDogXCJcXEUwMDNcIiB9XG4udG9vbGljb25zLXN0eWxlZ3VpZGU6YmVmb3JlIHsgY29udGVudDogXCJcXEUwMDRcIiB9XG4udG9vbGljb25zLXN1YjpiZWZvcmUgeyBjb250ZW50OiBcIlxcRTAwNVwiIH1cbi50b29saWNvbnMtdGFzazpiZWZvcmUgeyBjb250ZW50OiBcIlxcRTAwNlwiIH1cbi50b29saWNvbnMtdGVtcGxhdGU6YmVmb3JlIHsgY29udGVudDogXCJcXEUwMDdcIiB9XG4udG9vbGljb25zLXRlc3Q6YmVmb3JlIHsgY29udGVudDogXCJcXEUwMDhcIiB9XG4udG9vbGljb25zLWdpdGh1YjpiZWZvcmUgeyBjb250ZW50OiBcIlxcRTAwOVwiIH0iXSwic291cmNlUm9vdCI6Ii9zb3VyY2UvIn0= */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600|Montserrat:400,700);
+
+/**
+ * Solarized Dark theme for reveal.js.
+ * Author: Achim Staebler
+ */
+/**
+ * Solarized colors by Ethan Schoonover
+ */
+html * {
+  color-profile: sRGB;
+  rendering-intent: auto; }
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: rgba(240,76,0,1);
+  background-color: rgba(240,76,0,1); }
+
+.reveal {
+  font-family: "Open Sans","helvetica neue",sans-serif;
+  font-size: 36px;
+  font-weight: normal;
+  color: #fff; }
+
+::selection {
+  text-shadow: none; }
+
+.reveal .slides > section, .reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+
+/*********************************************
+ * FRONTEND TOOLBOX
+ *********************************************/
+.flexgrid{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flexgrid h4 {
+  padding: 1em;
+}
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  font-family: 'League Gothic', Impact, sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-transform: uppercase;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+.reveal h1 {
+  font-size: 3.77em; }
+
+.reveal h2 {
+  font-size: 2.11em; }
+
+.reveal h3 {
+  font-size: 1.55em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h1 {
+  text-shadow: none; }
+
+/*********************************************
+ * OTHER
+ *********************************************/
+.reveal p {
+  margin: 20px 0;
+  line-height: 1.3; }
+
+/* Ensure certain elements are never larger than the slide itself */
+.reveal img, .reveal video, .reveal iframe {
+  max-width: 95%;
+  max-height: 95%; }
+
+.reveal strong, .reveal b {
+  font-weight: bold; }
+
+.reveal em {
+  font-style: italic; }
+
+.reveal ol, .reveal dl, .reveal ul {
+  display: inline-block;
+  text-align: left;
+  margin: 0 0 0 1em; }
+
+.reveal ol {
+  list-style-type: decimal; }
+
+.reveal ul {
+  list-style-type: disc; }
+
+.reveal ul ul {
+  list-style-type: square; }
+
+.reveal ul ul ul {
+  list-style-type: circle; }
+
+.reveal ul ul, .reveal ul ol, .reveal ol ol, .reveal ol ul {
+  display: block;
+  margin-left: 40px; }
+
+.reveal dt {
+  font-weight: bold; }
+
+.reveal dd {
+  margin-left: 40px; }
+
+.reveal q, .reveal blockquote {
+  quotes: none; }
+
+.reveal blockquote {
+  display: block;
+  position: relative;
+  width: 70%;
+  margin: 20px auto;
+  padding: 5px;
+  font-style: italic;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2); }
+
+.reveal blockquote p:first-child, .reveal blockquote p:last-child {
+  display: inline-block; }
+
+.reveal q {
+  font-style: italic; }
+
+.reveal pre {
+  display: block;
+  position: relative;
+  width: 90%;
+  margin: 20px auto;
+  text-align: left;
+  font-size: 0.55em;
+  font-family: monospace;
+  line-height: 1.2em;
+  word-wrap: break-word;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3); }
+
+.reveal code {
+  font-family: monospace; }
+
+.reveal pre code {
+  display: block;
+  padding: 5px;
+  overflow: auto;
+  max-height: 400px;
+  word-wrap: normal;
+  background: #3F3F3F;
+  color: #DCDCDC; }
+
+.reveal table {
+  margin: auto;
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.reveal table th {
+  font-weight: bold; }
+
+.reveal table th, .reveal table td {
+  text-align: left;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+  border-bottom: 1px solid; }
+
+.reveal table th[align="center"], .reveal table td[align="center"] {
+  text-align: center; }
+
+.reveal table th[align="right"], .reveal table td[align="right"] {
+  text-align: right; }
+
+.reveal table tr:last-child td {
+  border-bottom: none; }
+
+.reveal sup {
+  vertical-align: super; }
+
+.reveal sub {
+  vertical-align: sub; }
+
+.reveal small {
+  display: inline-block;
+  font-size: 0.6em;
+  line-height: 1.2em;
+  vertical-align: top; }
+
+.reveal small * {
+  vertical-align: top; }
+
+/*********************************************
+ * LINKS
+ *********************************************/
+.reveal a {
+  color: #268bd2;
+  text-decoration: none;
+  -webkit-transition: color 0.15s ease;
+  -moz-transition: color 0.15s ease;
+  transition: color 0.15s ease; }
+
+.reveal a:hover {
+  color: #78bae6;
+  text-shadow: none;
+  border: none; }
+
+.reveal .roll span:after {
+  color: #fff;
+  background: #1a6291; }
+
+/*********************************************
+ * IMAGES
+ *********************************************/
+.reveal section img {
+  margin: 15px 0px;
+
+
+.reveal a img {
+  -webkit-transition: all 0.15s linear;
+  -moz-transition: all 0.15s linear;
+  transition: all 0.15s linear; }
+
+/*.reveal a:hover img {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #268bd2;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }*/
+
+/*********************************************
+ * NAVIGATION CONTROLS
+ *********************************************/
+.reveal .controls div.navigate-left, .reveal .controls div.navigate-left.enabled {
+  border-right-color: #fff; }
+
+.reveal .controls div.navigate-right, .reveal .controls div.navigate-right.enabled {
+  border-left-color: #fff; }
+
+.reveal .controls div.navigate-up, .reveal .controls div.navigate-up.enabled {
+  border-bottom-color: #fff; }
+
+.reveal .controls div.navigate-down, .reveal .controls div.navigate-down.enabled {
+  border-top-color: #fff; }
+
+.reveal .controls div.navigate-left.enabled:hover {
+  border-right-color: rgba(0,148,255,1); }
+
+.reveal .controls div.navigate-right.enabled:hover {
+  border-left-color: rgba(0,148,255,1); }
+
+.reveal .controls div.navigate-up.enabled:hover {
+  border-bottom-color: rgba(0,148,255,1); }
+
+.reveal .controls div.navigate-down.enabled:hover {
+  border-top-color: rgba(0,148,255,1); }
+
+/*********************************************
+ * PROGRESS BAR
+ *********************************************/
+.reveal .progress {
+  background: rgba(0, 0, 0, 0.2); }
+
+.reveal .progress span {
+  background: rgba(0,148,255,1);
+  -webkit-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  -moz-transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985);
+  transition: width 800ms cubic-bezier(0.26, 0.86, 0.44, 0.985); }
+
+/*********************************************
+ * SLIDE NUMBER
+ *********************************************/
+.reveal .slide-number {
+  color: rgba(0,148,255,1); }

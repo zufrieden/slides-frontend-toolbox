@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Frontend Toolbox</title>
+
+    <meta name="description" content="One of the ultimate frontend toolbox generator">
+    <meta name="author" content="Marc Friederich">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/frontend.css" id="theme">
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+
+        <section data-background="#004F88">
+          <img src="assets/toolbox-brand.svg" alt="" style="max-height:500px"/>
+        </section>
+        <section data-background="#ffffff">
+          <a href="https://www.youtube.com/watch?v=mEmPBRvM_TE">
+            <img src="assets/styleguide-default.png" alt="" />
+          </a>
+        </section>
+        <section>
+          <a href="https://twitter.com/brad_frost/status/633669252252311553">
+            <img src="assets/brad_frost.png" alt="" style="border-radius:30px;"/>
+          </a>
+        </section>
+        <section data-background="#004F88">
+          <img src="assets/tools.svg" alt="" style="max-height:500px"/>
+        </section>
+        <section>
+          <div class="flexgrid">
+          <h4>
+            <i class="toolicons toolicons-styleguide toolicons-3x"></i><br>
+            Styleguide oriented
+          </h4>
+          <h4>
+            <i class="toolicons toolicons-atomic toolicons-3x"></i><br>
+            Atomic development
+          </h4>
+          <h4>
+            <i class="toolicons toolicons-task toolicons-3x"></i><br>
+            Tasks running
+          </h4>
+          <h4>
+             <i class="toolicons toolicons-sub toolicons-3x"></i><br>
+             Sub-generators
+           </h4>
+           <h4>
+             <i class="toolicons toolicons-test toolicons-3x"></i><br>
+             Test environment
+           </h4>
+           <h4>
+             <i class="toolicons toolicons-template toolicons-3x"></i><br>
+             Templating
+           </h4>
+          </div>
+        </section>
+        <section>
+          <pre><code style="word-wrap: break-word; font-size:6vh;line-height:1.6em;">$ npm install -g generator-toolbox
+$ yo toolbox</code></pre>
+        </section>
+        <section>
+          <pre><code style="word-wrap: break-word; font-size:6vh;line-height:1.6em;">$yo toolbox:component</code></pre>
+          <pre><code style="word-wrap: break-word; font-size:6vh;line-height:1.6em;">? What kind of component is it ?
+❯ Atom
+  Molecule
+  Organism
+  Template</code></pre>
+        </section>
+        <section>
+          <pre><code style="word-wrap: break-word; font-size:6vh;line-height:1.6em;">$ What kind of component ?  Atom
+? Name your component ? button
+   assets/components/atoms/button.hbs
+   assets/sass/atoms/_buttons.scss</code></pre>
+        </section>
+        <section>
+          <img src="assets/styleguide_as_button.png" alt="" />
+        </section>
+        <section>
+          <img src="assets/frontend-toolbox.png" alt="" />
+        </section>
+        <section>
+          <h2><a href="https://github.com/frontend/toolbox" style="color:#fff;">github.com/frontend/toolbox</a></h2>
+        </section>
+      </div>
+
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'plugin/zoom-js/zoom.js', async: true },
+          { src: 'plugin/notes/notes.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
